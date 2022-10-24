@@ -12,7 +12,7 @@ header {
     justify-content: center;
 }
 
-.row {
+.header-row {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -42,4 +42,46 @@ ul {
 li {
     text-align: center;
     width: 10%;
+}
+
+.row-intro {
+    background-color: blue;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-intro {
+    background-color: rgb(197, 106, 209);
+    width: 70%;
+    height: 150px;
+    
+}
+
+.row {
+    height: 250px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-text {
+    background-color: skyblue;
+    width: 35%;
+}
+
+.col-img {
+    background-color: pink;
+    width: 20%;
+}
+
+.col-text, .col-img {
+    height: 200px;
+    border: 1px solid black;
+}
+
+.gray {
+    background-color: lightgray;
 }
